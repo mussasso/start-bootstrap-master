@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt", sans-serif;
+}
+* nav {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  background-color: #00004C;
+  align-items: center;
+  height: 4em;
+}
+* nav .logo {
+  color: #FFFFFF;
+}
+* nav .nav-left {
+  color: #8080A6;
+}
+* nav .nav-left ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+* .s1 {
+  background-color: #0000FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  height: 600px;
+}
+* .s1 h1 {
+  font-size: 5em;
+}
+* .s1 h2 {
+  font-size: 3.2em;
+}
+* .s1 button {
+  padding: 1.7em 4em;
+  border-radius: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #EE0979;
+  margin: 2rem 0;
+  border: none;
+}
+* .s2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0;
+}
+* .s2 .cards-1 {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+* .s2 .cards-1 .text {
+  width: 30%;
+}
+* .s2 .cards-1 img {
+  width: auto;
+  border-radius: 50%;
+  width: 30%;
+}
+* .s2 .cards {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+* .s2 .cards .text {
+  width: 30%;
+}
+* .s2 .cards img {
+  width: auto;
+  border-radius: 50%;
+  width: 30%;
+}
+* footer {
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+  color: #fff;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
